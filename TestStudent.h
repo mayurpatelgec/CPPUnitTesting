@@ -14,10 +14,12 @@
 
 class StudentTestCase : public CppUnit::TestFixture
 {
-CPPUNIT_TEST_SUITE(StudentTestCase);
+CPPUNIT_TEST_SUITE(StudentTestCase);	//Start the Test suite
+
 CPPUNIT_TEST(testConstructor);
 CPPUNIT_TEST(testAssignAndRetrieveGrades);
-CPPUNIT_TEST_SUITE_END();
+
+CPPUNIT_TEST_SUITE_END();				//End the Test suite
 
 public:
     void setUp() {}
