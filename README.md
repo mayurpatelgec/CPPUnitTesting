@@ -11,8 +11,8 @@ Unit Testing sample programme code for learning purpose
 ### Instructions for Installation:
 
 **Download Install MSYS2(MinGw)**
-Follow this Instruction:
-https://msys2.github.io/
+Follow this Instruction:  
+https://msys2.github.io/  
 It's tested with the MSYS2 64Bit Variant with the 32 Bit Compiler.
 Install nesessary packages
 Install mingw toolchain
