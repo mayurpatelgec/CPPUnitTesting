@@ -12,23 +12,27 @@ Unit Testing sample programme code for learning purpose
 
 **Download Install MSYS2(MinGw)**<br>
 https://msys2.github.io/<br>
-It's tested with the MSYS2 64Bit Variant with the 32 Bit Compiler.
-Install nesessary packages
-Install mingw toolchain
-Open the MinGw Shell:<br>
-pacman -S base-devel git mercurial cvs wget p7zip<br>
-pacman -S perl ruby python2 mingw-w64-i686-toolchain<br>
-PATH= C:\msys64\mingw32\bin;C:\msys64\usr\bin;<br>
-Install Qt<br>
-pacman -S mingw-w64-i686-qt4<br>
+It's tested with the MSYS2 64Bit Variant with the 32 Bit Compiler.<br>
+Install nesessary packages<br>
+Install mingw toolchain<br>
+Open the MSYS2/MinGw Shell:<br>
+``pacman -S base-devel git mercurial cvs wget p7zip``<br>
+``pacman -S perl ruby python2 mingw-w64-i686-toolchain``
+
+**Set environment Variable for MSYS2/MinGW**<br> 
+PATH= C:\msys64\mingw32\bin;C:\msys64\usr\bin;
+
+**Install Qt**<br>
+``pacman -S mingw-w64-i686-qt4``
 
 **Install QtCreator installation**<br>
 Download and execute the Installationbinary:<br>
 https://download.qt.io/snapshots/qtcreator/3.6.0-rc1/latest/qt-creator-opensource-windows-x86-3.6.0-rc1.exe
 
 **Install Boost**<br>
-`pacman -S mingw-w64-i686-boost`<br>
-`Install MAKE`<br>
+`pacman -S mingw-w64-i686-boost`
+
+**Install MAKE**<br>
 `pacman -S make`
 
 **Install CppUnit**<br>
