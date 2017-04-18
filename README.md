@@ -24,21 +24,23 @@ Install Qt
 pacman -S mingw-w64-i686-qt4
 
 **Install QtCreator installation**
+
 Download and execute the Installationbinary:
+
 https://download.qt.io/snapshots/qtcreator/3.6.0-rc1/latest/qt-creator-opensource-windows-x86-3.6.0-rc1.exe
 
 **Install Boost**
-pacman -S mingw-w64-i686-boost
-Install MAKE
-pacman -S make
+`pacman -S mingw-w64-i686-boost`
+`Install MAKE`
+`pacman -S make`
 
 **Install CppUnit**
-pacman -S mingw-w64-i686-cppunit
-Install Lcov
-cd /tmp/
-git clone https://github.com/linux-test-project/lcov.git
-cd lcov/
-make install
+``pacman -S mingw-w64-i686-cppunit``
+``Install Lcov``
+``cd /tmp/``
+``git clone https://github.com/linux-test-project/lcov.git``
+``cd lcov/``
+``make install``
 
 **Install cppcheck**
 git clone https://github.com/danmar/cppcheck.git
